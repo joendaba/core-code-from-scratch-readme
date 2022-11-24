@@ -41,11 +41,11 @@ Preparación
 ==============================================================================================
 Hot N Cold
 Convertir una temperatura en grados Centígrados a Fahrenheit 
-1. Obtener la temperatura en grados Centígrados
-2. Utilizar la fórmula de conversión (ºC * 9/5) +32
-3. Reemplazar la temperatura obtenida por ºC en la fórmula y operar
-4. Multiplicar la temperatura obtenida por 9/5 y guardar el resultado
-5. Al resultado anterior sumar 32 y entregar el resultado
+1. Preguntar la temperatura y definir la escala (Celsius o Fahrenheit)
+2. Obtener la temperatura en la escala correspondiente
+3. Utilizar la fórmula de conversión (ºC * 9/5) +32 para convertir de ºC a ºF
+4. Utilizar la fórmula de conversión (ºF-32) * .5556
+5. Aplicar la fórmula que corresponda  y presentar el resultado
 ==============================================================================================
 
 ==============================================================================================
