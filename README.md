@@ -33,6 +33,7 @@ Ingredientes y toppings de la pizza
 
 
 Preparación
+
 1. Haga la masa con los ingredientes indicados
 2. Estire la masa en el molde y forme orilla
 3. Ponga la salsa de tomate sobre la masa estirada
@@ -41,20 +42,28 @@ Preparación
 6. Hornear
 7. Sacar del horno y partir
 8. DEGUSTAR!!!
+
 ====================================================================================
 
 ====================================================================================
+
 Hot N Cold
+
 Convertir una temperatura en grados Centígrados a Fahrenheit 
+
 1. Preguntar la temperatura y definir la escala (Celsius o Fahrenheit)
 2. Obtener la temperatura en la escala correspondiente
 3. Utilizar la fórmula de conversión (ºC * 9/5) +32 para convertir de ºC a ºF
 4. Utilizar la fórmula de conversión (ºF-32) * .5556
 5. Aplicar la fórmula que corresponda  y presentar el resultado
+
 ====================================================================================
 
 ====================================================================================
-Some Geometry - Design an algorithm to calculate the volume of a pyramid, a cube and a sphere
+
+Some Geometry
+Design an algorithm to calculate the volume of a pyramid, a cube and a sphere
+
 
 1. Investigar las fórmulas
 2. Declarar las fórmulas:
