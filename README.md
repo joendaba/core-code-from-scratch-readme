@@ -8,6 +8,7 @@ Pizza de Salchicha Italiana
 Ingredientes
 
   Para la masa
+  
 		1 1/2 tazas de agua water
 		1 paquete (2 1/4 cucharaditas) de levadura
 		3 3/4 tazas de harina
@@ -16,6 +17,7 @@ Ingredientes
 		1 cucharadita de azúcar
 
 Ingredientes y toppings de la pizza
+
 		Aceite de Oliva extra-virgen
 		Salsa de tomate
 		Queso (de los tipos que prefiera)
