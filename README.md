@@ -1,6 +1,7 @@
 # core-code-from-scratch-readme
 core-code-from-scratch-readme
 
+==============================================================================================
 Pizza de Salchicha Italiana
 
 Ingredientes
@@ -35,3 +36,33 @@ Preparación
 6. Hornear
 7. Sacar del horno y partir
 8. DEGUSTAR!!!
+==============================================================================================
+
+==============================================================================================
+Hot N Cold
+Convertir una temperatura en grados Centígrados a Fahrenheit 
+1. Obtener la temperatura en grados Centígrados
+2. Utilizar la fórmula de conversión (ºC * 9/5) +32
+3. Reemplazar la temperatura obtenida por ºC en la fórmula y operar
+4. Multiplicar la temperatura obtenida por 9/5 y guardar el resultado
+5. Al resultado anterior sumar 32 y entregar el resultado
+==============================================================================================
+
+==============================================================================================
+Some Geometry - Design an algorithm to calculate the volume of a pyramid, a cube and a sphere
+
+1. Investigar las fórmulas
+2. Declarar las fórmulas:
+3. 	Pirámide: 1/3 × Largo de la Base × Ancho de la Base × Altura de la pirámide
+4. 	Cubo: Tamaño de un lado elevado al cubo (a^3)
+5. 	Esfera:4/3(∏r^2)
+6. Preguntar la figura cuya área se desea calcular
+7. Una vez elegida, preguntar las variables según la figura:
+8. 	Pirámide: medida de largo y ancho de la base, medida de la altura de la pirámide
+9. 	Cubo: largo de un lado
+10. 	Esfera: medida del radio de la esfera
+11. Con los datos solicitados, aplicar la fórmula correspondiente
+12. Desplegar el resultado
+13. Preguntar si se desea calcular otra área diferente o el área de otra figura
+==============================================================================================	
+
