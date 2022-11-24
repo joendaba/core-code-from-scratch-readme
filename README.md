@@ -1,7 +1,7 @@
 # core-code-from-scratch-readme
 core-code-from-scratch-readme
 
-==============================================================================================
+====================================================================================
 Pizza de Salchicha Italiana
 
 Ingredientes
@@ -36,9 +36,9 @@ Preparación
 6. Hornear
 7. Sacar del horno y partir
 8. DEGUSTAR!!!
-==============================================================================================
+====================================================================================
 
-==============================================================================================
+====================================================================================
 Hot N Cold
 Convertir una temperatura en grados Centígrados a Fahrenheit 
 1. Preguntar la temperatura y definir la escala (Celsius o Fahrenheit)
@@ -46,9 +46,9 @@ Convertir una temperatura en grados Centígrados a Fahrenheit
 3. Utilizar la fórmula de conversión (ºC * 9/5) +32 para convertir de ºC a ºF
 4. Utilizar la fórmula de conversión (ºF-32) * .5556
 5. Aplicar la fórmula que corresponda  y presentar el resultado
-==============================================================================================
+====================================================================================
 
-==============================================================================================
+====================================================================================
 Some Geometry - Design an algorithm to calculate the volume of a pyramid, a cube and a sphere
 
 1. Investigar las fórmulas
@@ -64,5 +64,5 @@ Some Geometry - Design an algorithm to calculate the volume of a pyramid, a cube
 11. Con los datos solicitados, aplicar la fórmula correspondiente
 12. Desplegar el resultado
 13. Preguntar si se desea calcular otra área diferente o el área de otra figura
-==============================================================================================	
+====================================================================================	
 
