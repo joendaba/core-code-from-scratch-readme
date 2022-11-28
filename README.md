@@ -141,3 +141,23 @@ SOLUTION
 7. End
 
 ===============
+3 Find the treasure 👑
+Description
+We are in a room with three chests. We know that at least one has a treasure in it. Each chest has a message, but all the messages are lies.
+
+Left chest: The middle chest has a treasure
+Middle chest: All these chests have treasures in them
+Right chest: Only one of these chests has treasures.
+
+Which chests have treasures?
+
+![image](https://user-images.githubusercontent.com/117490820/204203794-aa275821-eea7-467d-b5a0-af24fc6738ff.png)
+
+SOLUTION
+We know ALL messages are lies:
+Left chest: The middle chest has a treasure => this is a lie. No treasure in the middle chest.
+Middle chest: All these chests have treasures in them => this is a lie. This chest does not have a treasure (based on 1), but 1 and 3 might have a treasure.
+Right chest: Only one of these chests has treasures => this is a lie. More than one can have a treasure.
+If there is NO treasure in the middle, 1 or 3 may have a treasure, and more than one chest can have a treasure, then:
+Chest A (left) and Chest C (right) have a trasure.
+
