@@ -107,3 +107,18 @@ Resolución:
 2 Asumiento que la caja 2 dice la verdad: Se contradicen 1 y 3
 3 Asumiento que la caja 3 dice la verdad: Auto en la caja 2
 
+==================
+Challenges
+==================
+1 Numbers
+Description
+Design an algorithm to check if a number is even or odd. If it is even, write that it is even, otherwise write that it is odd. Represent the algorithm in a flowchart.
+
+Expected output
+A graph showing the steps to verify if a number is even or odd
+
+SOLUTION
+1. Ask for a number
+2. Divide the number by 2, if the quotient is an integer, then write "Even Number", else write "Odd number"
+3. ![image](https://user-images.githubusercontent.com/117490820/204202504-47e6b630-2719-42c4-a124-2fc661b7ab90.png)
+
