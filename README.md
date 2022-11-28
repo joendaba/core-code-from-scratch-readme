@@ -122,3 +122,22 @@ SOLUTION
 2. Divide the number by 2, if the quotient is an integer, then write "Even Number", else write "Odd number"
 3. ![image](https://user-images.githubusercontent.com/117490820/204202504-47e6b630-2719-42c4-a124-2fc661b7ab90.png)
 
+
+===============
+2 How old are you 👴
+Description
+Write pseudocode for an algorithm that calculates the age of a person based on date of birth
+
+Expected output
+A sequence that tells you how old is someone based on DOB
+
+SOLUTION
+1. Set date to "TODAY"
+2. Ask for "Date of Birth"
+3. Store as "DOB"
+4. Subtract "DOB" from "TODAY" (TODAY - DOB)
+5. Save the difference as "result"
+6. Write the value stored in a sentence as "You are (result) years old"
+7. End
+
+===============
