@@ -163,3 +163,21 @@ If there is NO treasure in the middle, 1 or 3 may have a treasure, and more than
 Chest A (left) and Chest C (right) have a trasure.
 
 
+#===============
+Week 2
+Logic problem
+Description
+The teacher asks his 5 students if they studied mathematics yesterday.
+
+Alice: "Nobody studied math yesterday".
+Bob: "1 person studied math yesterday".
+Charlie: "2 people studied math yesterday".
+Dan: "3 people studied mathematics yesterday".
+Eva: "4 people studied mathematics yesterday".
+
+The teacher knows that only those who studied would be telling the truth and those who didn't would be lying. Who is telling the truth?
+
+SOLUTION: No one can atest as to how many people studied other than themselves, to Alice, Charlie, Dan and Eva are lying, hence, Bob is telling the truth as he is referring to himself.
+
+Answer: Bob is telling the truth.
+#===============
