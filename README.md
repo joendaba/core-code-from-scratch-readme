@@ -94,3 +94,16 @@ Premisas:
 1 uno de ellos miente: como no sabemos quién, podemos asumir que ambos mienten.
 2 Si el de camisa azul dice que es Andrew (mentira) y el de camisa roja dice que es Bob (también mentira) podemos deducir que Andrew trae camisa roja.
 
+
+Segundo problema: Las 3 cajas y el automóvil
+Hay tres cajas y exactamente una de ellas tiene un automóvil. Puedes quedarte con el auto si eliges la caja correcta
+En cada caja hay un enunciado, solamente uno dice la verdad:
+1 Caja 1: El auto está en esta caja
+2 Caja 2: El auto no está en esta caja
+3 Caja 3: El auto no está en la caja 1
+
+Resolución: 
+1 Asumiendo que la caja 1 dice la verdad: Se contradicen 1 y 2
+2 Asumiento que la caja 2 dice la verdad: Se contradicen 1 y 3
+3 Asumiento que la caja 3 dice la verdad: Auto en la caja 2
+
