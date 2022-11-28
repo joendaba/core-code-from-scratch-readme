@@ -80,3 +80,17 @@ Design an algorithm to calculate the volume of a pyramid, a cube and a sphere
 13. Preguntar si se desea calcular otra área diferente o el área de otra figura
 ====================================================================================	
 
+
+Algorithms Session - November 24th
+
+Hay dos hombres. 
+Uno de ellos lleva una camisa roja y el otro lleva una camisa azul.
+Los dos hombres se llaman Andrew y Bob, pero no sabemos cuál es Andrew y cuál es Bob.
+EL chico de la camisa azul dice: "Soy Andrew"
+El chico de la camisa roja dice: "Soy Bob"
+Si sabemos que al menos uno de ellos mintió, ¿qué color de camisa lleva Andrew?
+
+Premisas:
+1 uno de ellos miente: como no sabemos quién, podemos asumir que ambos mienten.
+2 Si el de camisa azul dice que es Andrew (mentira) y el de camisa roja dice que es Bob (también mentira) podemos deducir que Andrew trae camisa roja.
+
