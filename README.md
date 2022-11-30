@@ -183,30 +183,48 @@ Answer: Bob is telling the truth.
 #===============
 
 ===============
+
 Tuesday, November 29 - Algorithms Session
+
 WEEK 2 CHALLENGES
 
 Week challenges (Tuesday) 💻
+
 ===============
+
 Install PSeInt
+
 ![image](https://user-images.githubusercontent.com/117490820/204678065-2645f510-4bcb-49d6-b6ab-8ac9f3e2bfb3.png)
 
 ===============
+
 Print my name
-Algoritmo My_Name
-MyName <- 'Josemiguel Dávila'	
-Imprimir MyName	
-FinAlgoritmo
+
+	Algoritmo My_Name
+
+	MyName <- 'Josemiguel Dávila'	
+
+	Imprimir MyName	
+
+	FinAlgoritmo
+
 ![image](https://user-images.githubusercontent.com/117490820/204678426-38ac34ed-eae0-435f-b880-693456a69f73.png)
 
-
 ===============
+
 Print my name & age
+
 Algoritmo Name_and_Age
+
 	Name <- 'Josemiguel Dávila'
+
 	Age <- 47
+
 	Imprimir Name
+
 	Imprimir Age
+
 FinAlgoritmo
 ![image](https://user-images.githubusercontent.com/117490820/204678582-4adc3111-da0a-4d2f-8850-faf95bb16e12.png)
 
+===============
