@@ -84,3 +84,21 @@ FinAlgoritmo
 ![image](https://user-images.githubusercontent.com/117490820/205112640-526b72a8-3198-45e3-b8c5-d648acceacea.png)
 
 ![image](https://user-images.githubusercontent.com/117490820/205112735-1c3fa22c-6063-4791-84cb-7946e7d0fc02.png)
+
+
+# THURSDAY
+
+## Challenge 1:
+
+### Truth Tables
+
+
+
+## Challenge 2:
+
+### Boolean Results
+
+
+## Challenge 3:
+
+### Identify odd and even numbers
