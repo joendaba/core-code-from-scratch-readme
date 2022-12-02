@@ -156,6 +156,32 @@ FinAlgoritmo
 		f <- 40 >= 40
 	FinAlgoritmo
 
+### SOLUTION:
+	Algoritmo Boolean_Results
+	a <- 5 == 3
+	// Variable a gets a Boolean result of False assigned, from evaluating if 5 is equal to 3
+	b <- 4 <> 3
+	// Variable b gets a Boolean result of True assigned, from evaluating if 4 is different (not equal to) 3
+	c <- 7 > 7
+	// Variable c gets a Boolean result of False assigned, from evaluating if 7 is greater than 7
+	d <- 4 < 4
+	// Variable d gets a Boolean result of False assigned, from evaluating if 4 less than 4
+	e <- 100 <= 90
+	// Variable e gets a Boolean result of False assigned, from evaluating if 100 less or equal to 90
+	f <- 40 >= 40
+	// Variable f gets a Boolean result of True assigned, from evaluating if 40 greater or equal to 40
+	// Following print commands display the Boolean value of each variable, preceded by the text description of each variable.
+	Imprimir 'Variable a es: ',a
+	Imprimir 'Variable b es: ',b
+	Imprimir 'Variable c es: ',c
+	Imprimir 'Variable d es: ',d
+	Imprimir 'Variable e es: ',e
+	Imprimir 'Variable f es: ',f
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/117490820/205189784-097e7d64-378d-4075-90fe-06290b673eaa.png)
+
+
 ## Challenge 3:
 
 ### Identify odd and even numbers
