@@ -115,7 +115,7 @@ FinAlgoritmo
 	11. (T & F) | (~F) = T ✅ 
 	12. (T | F ) & (F | F) = T  ❌
 	13. ~((T | F ) & (F | F)) & F = T  ❌
-	14. ~((T | F ) & (F | F)) & T = F  ✅
+	14. ~((T | F ) & (F | F)) & T = F  ❌
 
 ### SOLUTION
 	Algoritmo Truth_Tables
@@ -129,14 +129,15 @@ FinAlgoritmo
 	Imprimir '6. T | F = F : ' T|F
 	Imprimir '7. F | T = T : ' F|T
 	Imprimir '8. F | F = F : ' F|F
-	Imprimir '9. ~T = T : ' ~T=T
-	Imprimir '10. ~F = T : ' ~F=T
-	Imprimir '11. (T & F) | (~F) = T : ' (T&F)|(~F)=T
-	Imprimir '12. (T | F ) & (F | F) = T : ' (T|F)&(F|F)=T
-	Imprimir '13. ~((T | F ) & (F | F)) & F = T : ' ~((T&F)&(F|F))&F=T
-	Imprimir '14. ~((T | F ) & (F | F)) & T = F : ' ~((T|F)&(F|F))&T=F
+	Imprimir '9. ~T = T : ' ~T
+	Imprimir '10. ~F = T : ' ~F
+	Imprimir '11. (T & F) | (~F) = T : ' (T&F)|(~F)
+	Imprimir '12. (T | F ) & (F | F) = T : ' (T|F)&(F|F)
+	Imprimir '13. ~((T | F ) & (F | F)) & F = T : ' ~((T&F)&(F|F))&F
+	Imprimir '14. ~((T | F ) & (F | F)) & T = F : ' ~((T|F)&(F|F))&T
 FinAlgoritmo
-![image](https://user-images.githubusercontent.com/117490820/205188243-252a1400-c0ca-4d5a-9220-86fed22a4a19.png)
+![image](https://user-images.githubusercontent.com/117490820/205199548-f3f7ff73-3d61-42e9-b14f-a06b9ca96600.png)
+
 
 
 ## Challenge 2:
