@@ -102,20 +102,42 @@ FinAlgoritmo
 
 	Remember that NOT can be represented by ~
 
-	T & T = T
-	T & F = F
-	F & T = T
-	F & F = F
-	T | T = T
-	T | F = F
-	F | T = T
-	F | F = F
-	~T = T
-	~F = T
-	(T & F) | (~F) = T
-	(T | F ) & (F | F) = T
-	~((T | F ) & (F | F)) & F = T
-	~((T | F ) & (F | F)) & T = F
+	T & T = T ✅ 
+	T & F = F  ❌
+	F & T = T  ❌
+	F & F = F  ❌
+	T | T = T ✅ 
+	T | F = F ✅ 
+	F | T = T ✅ 
+	F | F = F  ❌
+	~T = T  ❌
+	~F = T ✅ 
+	(T & F) | (~F) = T ✅ 
+	(T | F ) & (F | F) = T  ❌
+	~((T | F ) & (F | F)) & F = T  ❌
+	~((T | F ) & (F | F)) & T = F  ❌
+
+### SOLUTION
+	Algoritmo Truth_Tables
+	F <- Falso 
+	T <- Verdadero
+	Imprimir '1. T & T = T : ' T&T
+	Imprimir '2. T & F = F : ' T&F
+	Imprimir '3. F & T = T : ' F&T 
+	Imprimir '4. F & F = F : ' F&F
+	Imprimir '5. T | T = T : ' T|T
+	Imprimir '6. T | F = F : ' T|F
+	Imprimir '7. F | T = T : ' F|T
+	Imprimir '8. F | F = F : ' F|F
+	Imprimir '9. ~T = T : ' ~T=T
+	Imprimir '10. ~F = T : ' ~F=T
+	Imprimir '11. (T & F) | (~F) = T : ' (T&F)|(~F)=T
+	Imprimir '12. (T | F ) & (F | F) = T : ' (T|F)&(F|F)=T
+	Imprimir '13. ~((T | F ) & (F | F)) & F = T : ' ~((T&F)&(F|F))&F=T
+	Imprimir '14. ~((T | F ) & (F | F)) & T = F : ' ~((T|F)&(F|F))&T=F
+FinAlgoritmo
+![image](https://user-images.githubusercontent.com/117490820/205188243-252a1400-c0ca-4d5a-9220-86fed22a4a19.png)
+
 
 ## Challenge 2:
 
