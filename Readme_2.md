@@ -107,15 +107,15 @@ FinAlgoritmo
 	3. F & T = T  ❌
 	4. F & F = F  ✅
 	5. T | T = T ✅ 
-	6. T | F = F ✅
+	6. T | F = F ❌
 	7. F | T = T ✅ 
 	8. F | F = F  ✅
 	9. ~T = T  ❌
 	10. ~F = T ✅
 	11. (T & F) | (~F) = T ✅ 
 	12. (T | F ) & (F | F) = T  ❌
-	13. ~((T | F ) & (F | F)) & F = T  ❌
-	14. ~((T | F ) & (F | F)) & T = F  ❌
+	13. ~((T | F ) & (F | F)) & F = T  ✅
+	14. ~((T | F ) & (F | F)) & T = F  ✅
 
 ### SOLUTION
 	Algoritmo Truth_Tables
