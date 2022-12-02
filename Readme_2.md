@@ -193,3 +193,25 @@ FinAlgoritmo
 	Print ‘Número: x es par’ if the number is even (x is the number the user enters)
 	Print ‘Número: x es impar’ if the number is odd (x is the number the user enters)
 	
+### SOLUTION:
+
+	Algoritmo Identificar_Numero_Par_o_Impar
+		Escribir 'Ingresar un número de dos dígitos'
+		Leer X
+		Y <- X%2
+		Si Y=0 Entonces
+			Imprimir 'El número ',X ' es un número par'
+		SiNo
+			Imprimir 'El número ',X ' es un número impar'
+		FinSi
+FinAlgoritmo
+
+![image](https://user-images.githubusercontent.com/117490820/205189949-5dd18b30-42c8-499e-ac88-f4c6741310b7.png)
+
+
+![image](https://user-images.githubusercontent.com/117490820/205189991-11da433b-d43e-400d-8875-55f8bfd2ea27.png)
+
+
+
+
+FinAlgoritmo
