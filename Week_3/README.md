@@ -21,7 +21,7 @@
 
 1. [Simple calculator](./challenges/e00/desc)
 
-###SOLUTION
+### SOLUTION
 Algoritmo Calculadora_Simple
 	// Despliegue de texto para describir el proceso del algoritmo 
 	Imprimir '====== Simple Calculator ======'
@@ -105,7 +105,7 @@ FinAlgoritmo
 
 1. [Simple calculator with Switch](./challenges/e02/desc)
 
-###SOLUTION
+### SOLUTION
 
 // Algoritmo para una calculadora que sigue hasta que el usuario decide salir
 Algoritmo Calculadora_Do_While
@@ -172,7 +172,7 @@ FinAlgoritmo
 
 2. [Multi Option Program](./challenges/e03/desc)
 
-###SOLUTION
+### SOLUTION
 
 Algoritmo Multi_Option_Program
 	//Programa para realizar una operación de un menú, previa selección del usuario de la opción de dicho menú
@@ -283,7 +283,7 @@ FinAlgoritmo
 
 1. [Multiplication Tables](./challenges/e04/desc)
 
-###SOLUTION
+### SOLUTION
 
 Algoritmo Multiplication_Tables
 	Imprimir "====== Tablas de Multiplicación ======'
@@ -418,7 +418,7 @@ FinAlgoritmo
 
 2. [Simple Calculator with Do While](./challenges/e05/desc)
 
-###SOLUTION
+### SOLUTION
 
 // Algoritmo para una calculadora que sigue hasta que el usuario decide salir
 Algoritmo Calculadora_Do_While
