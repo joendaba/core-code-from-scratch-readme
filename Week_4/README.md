@@ -94,8 +94,22 @@
 
 ### SOLUTION: There is no need for a solution, it was a round-up explanation of the integrated PSEint functions.
 
-3. [Full name](./challenges/e03/desc/)
-4. [Throw dice](./challenges/e04/desc/)
+2. [Full name](./challenges/e03/desc/)
+
+### SOLUTION
+
+    Algoritmo Nombre_Completo // programa que pide el nombre y apellido del usuario y corrige capitalización e imprime completo.
+      Imprimir 'A partir de un nombre y un apellido, escribiremos el nombre completo correctamente'
+      Imprimir 'Escriba el primer nombre: ' // Solicita el primer nombre del usuario.
+      Leer nombre // Asigna el primer nombre a la variable nombre.
+      Imprimir 'Escriba el primer apellido: ' // Solicita el primer apellido del usuario.
+      Leer apellido // Asigna el primer apellido a la variable apellido.
+      nombre_corregido = Mayusculas(Subcadena(nombre,0,0)) + Minusculas(Subcadena(nombre,1,Longitud(nombre)-1)) // Corrige las inciales mayúsculas y guarda en nombre corregido.
+      apellido_corregido = Mayusculas(Subcadena(apellido,0,0)) + Minusculas(Subcadena(apellido,1,Longitud(apellido)-1)) //Corrige las iniciales mayúsculas y guarda en apellido corregido.
+      Imprimir nombre_corregido,' ', apellido_corregido,'.' // Despliega el nombre completo corregido con iniciales mayúsculas.
+    FinAlgoritmo
+
+3. [Throw dice](./challenges/e04/desc/)
 
 ## Week challenges (Wednesday) 💻
 
