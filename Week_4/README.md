@@ -162,6 +162,50 @@
 
 2. [Toss coin](./challenges/e06/desc/)
 
+### SOLUTION
+
+    Algoritmo Lanza_Moneda
+      // Simulamos el lanzamiento de una moneda para elegir entre dos participantes quién es el ganador.
+      // Solicitaremos los nombres de los jugadores, así como el monto que apuestan.
+      // Luego de lanzar la moneda, escribiremos el nombre del ganador TODO EN MAYÚSCULAS.
+      // Si un jugador hace trampa al ingresar una apuesta negativa o 0, automáticamente el otro jugador gana.
+      // Se termina el programa diciendo 'Hizo trampa.'.
+      // Si ambos jugadores hicieran trampa, se despliega mensaje de 'Juego Cancelado, ambos hicieron trampa.'.
+
+
+      //Soicitamos los nombres de los jugadores y las apuestas de cada uno
+      Escribir 'Nombre del primer jugador: '
+      Leer jugador1
+      Escribir 'Cantidad que apuesta: '
+      Leer apuesta1
+      Escribir 'Nombre del segundo jugador: '
+      Leer jugador2
+      Escribir 'Cantidad que apuesta: '
+      Leer apuesta2
+
+      // Validamos que las apuestas sean mayores a 0.
+      //Si uno declara 0 o número negativo como apuesta, gana el otro.
+      // Si ambos apuestan 0 o número negativo, lo cancelamos y decimos que hicieron trampa.
+      SI apuesta1<=0 | apuesta2 <=0 Entonces
+        SI apuesta1<=0 & apuesta2 <=0 Entonces
+          Imprimir 'Juego Cancelado, ambos hicieron trampa'
+        SiNo
+          SI apuesta1<=0 Entonces
+            Imprimir 'El jugador ', Mayusculas(jugador2), ' ganó: 0'
+          SiNo
+            Imprimir 'El jugador ', Mayusculas(jugador1), ' ganó: 0'
+          FinSi
+        FinSi
+      SiNo
+        SI Aleatorio(1,2) = 1 Entonces // Se hace el 'tirado de moneda' virtual para ver quién gana. 1 o 2 y se asigna al ganador la apuesta del otro.
+          Imprimir 'El jugador ', Mayusculas(jugador1), ' ganó: ', apuesta2
+        SiNo
+          Imprimir "El jugador ', Mayusculas(jugador2), ' ganó: ', apuesta1
+        FinSi
+      FinSi
+
+    FinAlgoritmo
+
 ## Week challenges (Thursday) 💻
 
 1. [Structure of a function](./challenges/e07/desc/)
