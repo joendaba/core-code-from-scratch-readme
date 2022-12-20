@@ -52,6 +52,41 @@
 
 2. [Compare distances](./challenges/e01/desc/)
 
+### SOLUTION
+
+		// Create a function called compareDistances that asks for 5 numbers, these can be positive or negative, 
+		// add the positives with positives and negatives with negatives, 
+		// the function should return true if there is more distance to 0 with positives or 
+		// false if the distance is greater with negatives .
+
+
+		// Definiremos la función que solicite los números y los guarde en variables temporales para su manejo.
+		// Se comparan si son mayores o menores que 0 y se suman al número ingresado.
+		// Se devuelve un resultado FALSO o VERDADERO según el caso para el número mayor o menor con negativos o con positivos.
+		Funcion resultado <- compareDistances ()
+			Definir resultado Como Logico;
+			Definir numero_positivo, numero_negativo Como Real;
+			numero_positivo = 0;
+			numero_negativo = 0;
+			Para cuenta = 1 Hasta 5 Con Paso 1 Hacer
+				Imprimir 'Escriba el valor ',cuenta,':'
+				Leer numero_ingresado
+				SI numero_ingresado > 0 Entonces
+					numero_positivo = numero_positivo + numero_ingresado;
+				SiNo
+					numero_negativo = numero_negativo + numero_ingresado;
+				FinSi
+			FinPara
+			resultado = numero_positivo > Abs(numero_negativo)
+		FinFuncion
+
+
+		// El algoritmo llama la función previamente definida y solicita que imprima o despliegue el resultado en pantalla.
+		Algoritmo Compara_Distancias
+				Imprimir  'Por favor escriba 5 valores enteros según se piden, pueden ser positivos o negativos.'
+				Imprimir compareDistances()
+		FinAlgoritmo
+
 ## Week challenges (Tuesday) 💻
 
 1. End of month - Work on your README
