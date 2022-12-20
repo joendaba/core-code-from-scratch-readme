@@ -111,6 +111,30 @@
 
 3. [Throw dice](./challenges/e04/desc/)
 
+### SOLUTION
+
+    Algoritmo Tirando_Dados
+
+      Imprimir 'Este programa lanza los dados diez veces y despliega los resultados de cada tirada'
+      Imprimir '¡Vamos a tirar dos dados!'
+
+      Definir dado1, dado2 Como Entero // Hemos definido cada dado como una variable de tipo entero (por valores 1-6)
+
+      Para veces = 1 Hasta 10 Con Paso 1 Hacer // Definimos el ciclo para que repita 10 veces el proceso de 'tirado' de los dados.
+        dado1 = Aleatorio(1,6) // Define el valor aleatorio del primer dado con opciones entre 1 y 6.
+        dado2 = Aleatorio(1,6) // Define el valor aleatorio del segundo dado con opciones entre 1 y 6.
+
+        SI dado1 = dado2 Entonces // Define la acción a tomar si ambos valores fuesen iguales (dados iguales).
+          Imprimir dado1, ' - ',dado2, ': Los dados sacaron el mismo número. ','Total de tirada: ',dado1+dado2
+        SiNo
+          Imprimir dado1, ' - ',dado2, ' Total de tirada: ',dado1+dado2 // Despliega los valores de cada cado por cada tirada.
+        FinSi
+
+      FinPara
+
+    FinAlgoritmo
+    
+
 ## Week challenges (Wednesday) 💻
 
 1. [Distance to zero](./challenges/e05/desc/)
