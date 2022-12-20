@@ -91,8 +91,11 @@
 ## Week challenges (Tuesday) 💻
 
 1. [Predefined functions](./challenges/e02/desc/)
-2. [Full name](./challenges/e03/desc/)
-3. [Throw dice](./challenges/e04/desc/)
+
+### SOLUTION: There is no need for a solution, it was a round-up explanation of the integrated PSEint functions.
+
+3. [Full name](./challenges/e03/desc/)
+4. [Throw dice](./challenges/e04/desc/)
 
 ## Week challenges (Wednesday) 💻
 
