@@ -138,6 +138,28 @@
 ## Week challenges (Wednesday) 💻
 
 1. [Distance to zero](./challenges/e05/desc/)
+
+### SOLUTION
+
+    Algoritmo Distancia_a_Cero
+      // Este programa pide al suuario 5 valores, positivos o negativos, y determina cuál es el que está más alejado de '0'.
+      // Compara los 5 valores y entrega como entero positivo el valor del número que más se aleja de 0.
+
+      Imprimir 'Ingresa cinco números para que determinemos cuál está más lejos del 0.' // Solicita al usuario los 5 números.
+
+      //Realizamos el ciclo de solicitud de cada número y lo almacenamos en su correspondiente variable
+      Leer Distancia_Mayor
+      Para cuenta=1 Hasta 5 Con Paso 1 Hacer // Cicla de 1 a 5.
+        Escribir 'Escribe el número ',cuenta,': ' // Solicita se escriba el número n.
+        Leer num // Guarda el número en variable temporal.
+        SI Abs(num) > Abs(Distancia_Mayor) Entonces // Compara la distancia mayor a 0 y lo guarda en Distancia_Mayor.
+          Distancia_Mayor = num // Asigna a Distancia_Mayor el valor del número (si es mayor).
+        FinSi
+      FinPara
+      Imprimir 'El número más alejado de 0 es el ',Trunc(Distancia_Mayor) // Al final se despliega el número que está más alejado de 0.
+
+    FinAlgoritmo
+
 2. [Toss coin](./challenges/e06/desc/)
 
 ## Week challenges (Thursday) 💻
