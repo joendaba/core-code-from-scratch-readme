@@ -293,6 +293,49 @@ Structure of a function
 
 3. [Reverse direction and size](./challenges/e09/desc/)
 
+### Description
+	Create a function called ReverseDirectionAndSize that takes some text as a parameter and reverses it, eg: "Hello" -> "olleH" and also reverses the letters if they are uppercase to lowercase and if they are lowercase to uppercase, it should do something. like this:
+
+	"HelLO" --> "olLEh"
+
+	"Leonardo" --> "ODRANOEl"
+
+	"Text" --> "TXEt"
+
+	Expected output
+	Algoritmo example_ReverseDirectionAndSize
+		Imprimir ReverseDirectionAndSize("Hello")
+	FinAlgoritmo
+
+### SOLUTION
+
+		// Define la función que toma un string ingresado por usuario y lo convierte al Case contrario.
+
+		Funcion resultado <- Inverso_Switch_Case (string)
+			Definir resultado Como Caracter; // Define tipo de dato para su manejo.
+			resultado = ""; // Inicializa variable resultado como vacío.
+			Para cuenta = Longitud(string) Hasta 0 Con Paso -1 Hacer // El ciclo FOR para cada caracter.
+				letra = Subcadena(string,cuenta,cuenta) // Asigna a la variable letra la posición para su Case Switch.
+				SI letra = Mayusculas(letra) Entonces // Valida si UPPERCASE y cambia a lowercase.
+					letra = Minusculas(letra)
+				SiNo
+					letra = Mayusculas(letra) // Si es lowercase cambia a UPPERCASE.
+				FinSi
+				resultado = Concatenar(resultado,letra) // Arma de nuevo la palabra con el case cambiado.
+			FinPara
+		Fin Funcion
+
+		Algoritmo Invierte_y_Cambia_Case
+			Imprimir '===== Inverso Switch Case ====='
+			Imprimir 'Toma su frase y la invierte, cambiando mayúsculas a minúsculas < >'
+			Imprimir 'Escriba la palabra o frase a invertir: '
+			Leer string
+			Imprimir Inverso_Switch_Case(string)
+		FinAlgoritmo
+		
+		![image](https://user-images.githubusercontent.com/117490820/209349663-6de5c303-6dfd-4266-8835-87b54528933a.png)
+
+
 ## Week links 🔗
 
 ## Session links 🔗
