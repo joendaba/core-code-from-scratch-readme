@@ -507,7 +507,41 @@ FinAlgoritmo
 
 
 2. [Ascending and Descending Numbers](./challenges/e06/desc)
-3. [Greetings](./challenges/e08/desc)
+
+For this challenge we are going to print numbers in ascending or descending order. The user must enter a number, then he must enter if he wants to print the numbers in ascending or descending order. If the user chooses ascending, the numbers will be printed from the number 0 to the number entered, otherwise the numbers will be printed descending from the number entered to the number 0.To solve this challenge remember to use the For(Para) loop.
+
+### SOLUTION
+
+		Algoritmo Ascendente_o_Descendente
+				Imprimir '===== Números en orden Ascendente o Descendente =====' // Despliega mensaje de lo que hace el programa.
+				Imprimir 'Escriba un número:' // Despliega mensaje solicitando un número.
+				Leer num // Asigna el valor ingresado a la variable num.
+				Imprimir 'Operaciones disponibles:' // Despliega mensaje indicando que se debe elegir una opción.
+				Imprimir '1. Imprimir Ascendente de 0 a ',num // Despliega mensaje que define opción de lista ascendente.
+				Imprimir '2. Imprimir Descendente de ',num,' a 0' // Despliega mensaje que define opción de lista descendente.
+				Imprimir 'Ingrese operacion a ejecutar' // Despliega mensaje que espera selección del usuario.
+				Leer opcion // Asigna selección de usuario a variable opcion.
+				Segun opcion Hacer // Se define el ciclo iterativo 'For' según la operación seleccionada.
+					1: // Caso de opción Ascendente.
+						Para iterador <- 0 Hasta num Con Paso 1 Hacer
+							Imprimir ConvertirATexto(iterador)
+						Fin Para
+					2: // Caso de opción Descendente.
+						Para iterador <- num Hasta 0 Con Paso -1 Hacer
+							Imprimir ConvertirATexto(iterador)
+						Fin Para
+					De Otro Modo:
+						Imprimir 'Esa opción no existe, seleccione de la lista.' // Se despliega si el usuario elige una opción distinta a 1 o 2.
+				Fin Segun
+		FinAlgoritmo
+		
+		![image](https://user-images.githubusercontent.com/117490820/209342392-c5b6ca7e-3d55-45bc-b99c-d631d9ffbf4d.png)
+		![image](https://user-images.githubusercontent.com/117490820/209342432-f50cf5f8-e0e0-4263-b514-a6f73f44cc8c.png)
+		![image](https://user-images.githubusercontent.com/117490820/209342478-70fce995-619c-4897-bc79-627f2d240694.png)
+
+
+
+4. [Greetings](./challenges/e08/desc)
 
 ## Week links 🔗
 
