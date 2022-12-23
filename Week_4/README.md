@@ -261,6 +261,36 @@ Structure of a function
     FinAlgoritmo
 
 2. [Total price](./challenges/e08/desc/)
+
+  Total price
+	Description
+	Create a function called TotalPrice that takes 2 parameters, price and VAT, and returns the price including VAT. if the price exceeds 3000 a 10 percent discount is made on the total price.
+
+	Expected output example
+	Algoritmo example_TotalPrice
+		Imprimir TotalPrice(5000,21)
+	FinAlgoritmo
+
+### SOLUTION
+
+    Funcion calcula_valor <- Total (costo,iva) // Define la acción y argumentos de la función.
+      Definir calcula_valor Como Real; // Define el tipo de la variable de la función.
+      SI costo > 3000 Entonces // Valida el costo, para aplicar descuento si es mayor a 3000.
+        Imprimir '(10% de descuento en compra mayor a 3000)' // Despliega descuento aplicado.
+        calcula_valor = (costo + (costo/100*iva))/100*90 // Cálculo del precio total + descuento.
+      SiNo
+        calcula_valor = (costo + (costo/100*iva)) // Cálculo del precio total.
+      FinSi
+    Fin Funcion
+
+    Algoritmo Precio_Total
+      Imprimir 'Ingrese el precio de la mercadería:' // Despliega solicitud de ingreso de costo de producto.
+      Leer costo // Asigna a variable costo.
+      Imprimir 'Impuesto vigente:' // Despliega solicitud de ingreso de impuesto vigente.
+      Leer iva // Asigna a variable iva (impuesto o VAT)
+      Imprimir 'Total a pagar, incluyendo impuesto - ',Total(costo,iva) // Ejecuta función calcula_valor con los argumentos solicitados anteriormente.
+    FinAlgoritmo
+
 3. [Reverse direction and size](./challenges/e09/desc/)
 
 ## Week links 🔗
