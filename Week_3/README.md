@@ -541,7 +541,47 @@ For this challenge we are going to print numbers in ascending or descending orde
 
 
 
-4. [Greetings](./challenges/e08/desc)
+3. [Greetings](./challenges/e08/desc)
+
+### SOLUTION
+
+For this challenge, you need to create a program that prints a greeting based on an hour entered. The program should do the following:
+
+Print Buenos dias! if the hour is from 0 to 12
+Print Buenas tardes! if the hour is from 13 to 18
+Print Buenas noches! if the hour is from 19 to 23
+Ask the user if he wants to perform another greeting. If the answer is Si, the program must start again.
+At the end of the program, print out the number of times the program has greeted.
+
+		Algoritmo Saludos
+			Imprimir '===== Saludos =====' // Despliega el mensaje de bienvenida del programa.
+			Definir continuar Como Cadena // Define variable para poder continuar  salir del ciclo.
+			Definir contar_saludos Como Entero // Define variable de conteo de saludos.
+			contar_saludos <- 0 // Inicializa la variable de conteo de saludos con valor 0.
+			continuar <- 'Si' // Inicializa la variable de verificación de salida con valor 'Si'.
+			Mientras continuar == 'Si' Hacer // Verifica que la variable de verificación de salida permita continuar el ciclo iterativo.
+				Imprimir 'Escriba la hora (en formato 0-23):' // Solicita al usuario escribir la hora para definir saludo.
+				Leer hora // Asigna la hora a la variable correspondiente.
+				Si hora <= 12 Entonces // El ciclo iterativo valida la opción de saludo matutino.
+					Imprimir '¡Buenos días!' // Despliega mensaje para saludo matutino.
+				SiNo 
+					Si hora <= 18 Entonces // Se valida la opción de saludo vespertino.
+						Imprimir '¡Buenas tardes!' // Despliega mensaje de saludo vespertino.
+					SiNo
+						Imprimir '¡Buenas noches!'// Despliega mensaje de saludo nocturno.
+					Fin Si
+				Fin Si
+
+				contar_saludos <- contar_saludos + 1 // Agrega una unidad (1) al contador de saludos por cada ciclo realizado.
+
+				Imprimir 'Desea continuar ? Si/No' // Verifica por medio de selección si se continúa el ciclo o se sale.
+				Leer continuar // Asigna el input a la variable continuar (ver línea inicial ciclo Mientras).
+			Fin Mientras
+
+			Imprimir 'Cantidad de Saludos realizados: ' + ConvertirATexto(cantidadSaludos) // Al finalizar, despliega conteo total de saludos.
+		FinAlgoritmo
+		![image](https://user-images.githubusercontent.com/117490820/209344320-0bb520af-805a-41dc-8a7d-fc5898b5ce1f.png)
+
 
 ## Week links 🔗
 
