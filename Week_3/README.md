@@ -485,6 +485,27 @@ FinAlgoritmo
 
 ## Week challenges (Thursday) 💻
 1. [Multiplication Tables with For](./challenges/e07/desc)
+
+### SOLUTION
+
+		// For this challenge you will create a program to calculate the multiplication tables for a given number using the For(Para) loop. 
+		// The user must enter a number and then the multiplication table for the number must be printed.
+
+		//Solicitaremos al usuario el número de la tabla que quiere desplegar
+
+		Algoritmo Tablas_de_Multiplicar_con_For
+			Imprimir '====== Tablas de Multiplicación del 1 al 10 ======'
+			Imprimir '¿Qué la tabla quieres calcular?'
+			Leer tabla // Asignamos el número de la tabla elegida en la variable tabla.
+			Imprimir 'La Tabla del ' + ConvertirATexto(tabla) // Agregamos la cadena de texto que describa la acción.
+			Para iterador <- 1 Hasta 10 Con Paso 1 Hacer // Por medio del ciclo 'For' definimos operación del 1 al 10.
+				Imprimir ConvertirATexto(tabla) ' * ' + ConvertirATexto(iterador) + ' = ' ConvertirATexto(tabla * iterador) // Se realiza ciclo iterativo de multiplicar e imprimir cadena.
+			Fin Para
+		FinAlgoritmo
+		
+		![image](https://user-images.githubusercontent.com/117490820/209340072-f3d730f2-2791-44a7-b876-f4d943e6fee9.png)
+
+
 2. [Ascending and Descending Numbers](./challenges/e06/desc)
 3. [Greetings](./challenges/e08/desc)
 
