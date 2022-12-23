@@ -92,6 +92,8 @@
 1. End of month - Work on your README
 
 ## Week challenges (Wednesday) 💻
+1. [Cashier](./challenges/e04/desc/)
+2. [Weather average](./challenges/e05/desc/)
 
 ## Week challenges (Thursday) 💻
 1. [If](./challenges/e06/desc)
