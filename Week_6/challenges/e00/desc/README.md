@@ -8,9 +8,9 @@ As developers, we try to have environments in which we feel comfortable creating
 
 ## Environments
 
-1. [Web](#1-web)
-2. [Browser](#2-browser)
-3. [Local](#3-local)
+1. [Web](#1-web) (through jsbin)
+2. [Browser](#2-browser) (console on the browser)
+3. [Local](#3-local) (Visual Studio Code or any compatible tet editor + Node.JS to run)
 
 ## 1. Web
 
