@@ -12,6 +12,8 @@
 - addEventListener
 - HTML
 
+## The solution to the Calculator Challenge can be found here https://github.com/joendaba/core-code-from-scratch-readme/blob/main/Week_10/joendaba_calc.html
+
 ## Week challenges (Monday) 💻
 
 1. 🧮 Work on the calculator project
