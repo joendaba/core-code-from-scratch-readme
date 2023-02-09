@@ -23,6 +23,9 @@
   - then/catch
   - Async / Await
 
+
+## All the Solutions to the "Weekly Challenges" are located in my CodeWars Profile: https://www.codewars.com/users/joendaba/completed
+
 ## Week challenges (Monday) 💻
 
 1. ["this" is a problem](./challenges/e00/desc)
