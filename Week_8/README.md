@@ -26,6 +26,9 @@
   - map
   - reduce
   - filter
+  
+  
+## All the Solutions to the "Weekly Challenges" are located in my CodeWars Profile: https://www.codewars.com/users/joendaba/completed
 
 ## Week challenges (Monday) 💻
 
